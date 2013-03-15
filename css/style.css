@@ -1,0 +1,67 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+.clearfix,
+.row {display: block;}
+.clearfix:after,
+.row:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+.fr {float: right;}
+.fl{float: left;}
+.bold{font-weight: bold}
+.title {color: #8f1c85 !important;}
+
+html,body {font: normal 16px/22px "Trebuchet MS", Helvetica, sans-serif;color: #585858;background-color: #585858;}
+#top {background: transparent url(../img/top_bg.jpg) 0 0 repeat-x;height: 134px;padding: 6px 0 0;width: 100%;}
+#nav {background: transparent url(../img/nav_bg.jpg) 0 0 repeat-x;width: 100%;height: 36px;}
+#body{background: transparent url(../img/bg.jpg) 0 0 repeat-x; width: 100%; min-height: 233px;}
+a,
+a:visited {color: #585858; text-decoration: none}
+
+.wrapper_top{width: 960px;padding: 8px;background: transparent url(../img/content_top.png) 0 0 no-repeat;height:1px;margin: 0 auto;}
+.wrapper {width: 960px;padding: 8px;background: transparent url(../img/content_bg.png) 0 0 repeat-y;margin: 0 auto;}
+.wrapper_btm{width: 960px;padding: 8px;background: transparent url(../img/content_btm.png) 0 0 no-repeat;height:17px;margin: 0 auto 6px;}
+
+#top .wrapper {height: 107px;}
+#top h1 {font-size: 48px;line-height: 48px;font-weight:normal;color: #8f1c85;margin-top:29px;text-align: center}
+
+#nav .wrapper {height: 36px;padding:0 8px;}
+.nav_menu {width:100%;background:transparent url(../img/nav.jpg) 0 0 repeat-x;height:36px;}
+.nav_menu li {float: left; background: transparent url(../img/nav_li.png) no-repeat 100% 0;height:36px;line-height: 36px;padding:0 20px;}
+
+.left_col {float:left; width: 180px; margin-left: 20px;position: relative;margin-top: 19px;}
+.box {width: 180px;background: #ebebeb url(../img/sidebar_box_bottom.jpg) 0 100% no-repeat;padding-bottom: 8px;margin-top: 13px;font-size: 12px;}
+.box h4 {font-size: 16px; color: #fff; font-weight: bold; background: transparent url(../img/sidebar_box_head.jpg) 0 0 no-repeat;height:34px; line-height: 34px; text-indent: 10px}
+.box ul {border-left: 1px solid #d3d3d3;}
+.box li {border-top: 1px solid #d3d3d3;padding:10px;}
+.box li.last {padding: 10px 10px 2px 10px;}
+.box p {padding: 10px; line-height: 16px;}
+
+.center_cols {float: right; position: relative; left:-13px; z-index: 2}
+.center_col {width: 740px; padding: 8px; background: transparent url(../img/center_bg.png) 0 0 repeat-y;}
+.center_top {width: 756px; background: transparent url(../img/center_top.png) 0 0 no-repeat;height:16px;margin-top: 4px;}
+.center_btm {width: 756px; background: transparent url(../img/center_btm.png) 0 0 no-repeat;height:16px;}
+
+.content {padding: 5px 20px;}
+.info_box {float: right;}
+
+.list li {border-bottom: 1px solid #d3d3d3}
+
+.content h2 {font-size: 24px; color: #8f1c85; border-bottom: 1px solid #d3d3d3; font-weight: normal; padding-bottom: 20px;margin-bottom: 4px;}
+.row {margin-top: 9px; float: left;width:100%}
+.newIncident label {float: left; color: #8f1c85; font-size: 18px; width: 230px;line-height: 30px;}
+.newIncident input[type="text"],
+.newIncident textarea {float: left; border: 1px solid #a9a9a9; background-color: #fff; width:241px; height: 18px; padding:5px;}
+.newIncident textarea {width: 458px; height:224px;}
+#submitNewIncident {display: block;border:0;float: right;background: transparent url(../img/submit_btn.png) 0 0 no-repeat; text-indent: -99999px; width: 191px; height: 34px;margin-top: 10px; cursor: pointer;}
+.newIncident em {float: left; margin-left: 230px; font-size: 13px; font-style: italic}
+.newIncident .error {border: 1px solid red !important;}
+
+.errorList {padding: 5px; margin: 0 0 10px 0; background-color: #FAE2E3; border:1px solid #EC9B9B; list-style: disc inside}
+.errorList li {margin:0; font-size: 90%}
+.info {display: block; color: #fff;font-weight: bold; background-color: green; width: 100%;text-align: center;}
+
+.comments {border-top: 1px solid #d3d3d3; margin-top: 20px}
+.comments .title {font-size: 80%; font-style: italic}
+
+.pagination a {padding: 0 5px;}
